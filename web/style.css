@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.title-container {
+    text-align: center;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+/* Style the image as needed */
+.title-container img {
+    width: 500px; /* Set the width of the image */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Optional: Add border-radius for rounded corners */
+}
+
+body {
+    background: #f9f9f9;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
