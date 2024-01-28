@@ -1,12 +1,19 @@
 from flask import Flask, jsonify, request
 from flask_sqlalchemy import SQLAlchemy
-import LocationInfo
+from flask_cors import CORS
+import LocationInfo as LocationInfo
 
 app = Flask(__name__)
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///location_info.db'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
+CORS(app)
 
 db = SQLAlchemy(app)
+
+@app.route('/api/data')
+def get_data():
+    data = {'key': 'value'}
+    return jsonify(data)
 
 class LocationInfo(db.Model):
     id = db.Column(db.Integer, primary_key=True)
