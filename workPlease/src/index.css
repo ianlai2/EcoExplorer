@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Nunito';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #FFF8C8;
+}
+
+:root {
+  flex: 1 ;
+  background-color: #FFF8C8;
+  overflow-y: hidden;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+h2 {
+  text-align: justify;
+  font-family: 'Fredoka One';
+  font-weight: 50;
+  color: #077D61;
+  font-size: 3vw;
+  text-indent: 5%;
+}
+
+h3 {
+  text-align: center;
+  font-family: 'Nunito';
+  font-weight: 50;
+  color: #077D61;
+  font-size: 125%;
+}
+  
