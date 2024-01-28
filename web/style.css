@@ -3,21 +3,20 @@ body {
     font-family: 'Arial', sans-serif;
 }
 
-.title-container {
+.logo-container {
     text-align: center;
     padding: 20px;
-    background-color: #f0f0f0;
 }
 
 /* Style the image as needed */
-.title-container img {
-    width: 500px; /* Set the width of the image */
+.logo-container img {
+    width: 50px; /* Set the width of the image */
     height: auto; /* Maintain aspect ratio */
     border-radius: 10px; /* Optional: Add border-radius for rounded corners */
 }
 
 body {
-    background: #f9f9f9;
+    background: #FFF8C8;
     min-height: 100vh;
     overflow-x: hidden;
 }
@@ -33,3 +32,60 @@ header {
     align-items: center;
     z-index: 100;
 }
+
+.navigation a {
+    text-decoration: none;
+    color: #077D61;
+    padding: 6px 15px;
+    border-radius: 20px;
+    margin: 0 10px;
+    font-size: larger;
+    font-weight: 600;
+}
+
+.navigation a:hover,
+.navigation a.active {
+    background:  #077D61;
+    color:  #FFF8C8;
+}
+
+.parallax {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;   
+}
+
+.title-container {
+    position: absolute;
+    width: 100vh;
+    height: auto;
+}
+
+/* #flowers1 {
+    width: 200px;
+    height: auto;
+    position: absolute;
+    left: 50px;
+    top: 500px;
+}
+
+#flowers2 {
+    width: 200px;
+    height: auto;
+    float: right;
+}
+
+#flowers3 {
+    width: 200px;
+    height: auto;
+    float: bottom;
+} */
+ /* .parallax img{
+    position: absolute; 
+    top: 0;
+    left: 0;
+    width: 50%;
+    pointer-events: none;
+}  */
