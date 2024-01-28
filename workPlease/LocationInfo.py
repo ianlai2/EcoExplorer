@@ -5,7 +5,6 @@ class LocationInfo:
         self.description = description
         self.funFact = funFact
 
- # TODO implement setters, getters, and checkers for description and funFact
  # getters return respective variables as a string,
     def getdescription(self):
         return self.description
@@ -21,18 +20,11 @@ class LocationInfo:
 
  # checkers are booleans and should return true if there is a value 
     def checkfact(self):
-        if (self.funFact == 'None'):
-            return False
-        else:
-            return True
+        return self.funFact == 'None'
      
     def checkdescription(self):
-        if (self.description == 'None'):
-            return False
-        else:
-            return True
+        return self.description == 'None'
 
-    # TODO implement the function __str__ to output description and funFact as strings seperated by a newline
     def __str__(self):
         print(self.description + '\n')
         print(self.funFact)
