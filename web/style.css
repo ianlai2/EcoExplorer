@@ -63,25 +63,55 @@ header {
     height: auto;
 }
 
-/* #flowers1 {
+#flowers1 {
     width: 200px;
     height: auto;
     position: absolute;
-    left: 50px;
-    top: 500px;
+    left: 321.2px;
+    top: 221.2px;
 }
 
-#flowers2 {
+/* #flowers2 {
     width: 200px;
     height: auto;
-    float: right;
+    position: absolute;
+    left: 321.2px;
+    top: 221.2px;
 }
 
 #flowers3 {
     width: 200px;
     height: auto;
-    float: bottom;
+    position: absolute;
+    left: 321.2px;
+    top: 221.2px;
 } */
+
+#flowers4 {
+    width: 200px;
+    height: auto;
+    position: absolute;
+    left: 321.2px;
+    top: 221.2px;
+}
+
+#flowers5 {
+    width: 200px;
+    height: auto;
+    position: absolute;
+    left: 321.2px;
+    top: 221.2px;
+}
+
+#flower6 {
+    width: 200px;
+    height: auto;
+    position: absolute;
+    left: 321.2px;
+    top: 221.2px;
+}
+
+
  /* .parallax img{
     position: absolute; 
     top: 0;
