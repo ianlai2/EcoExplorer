@@ -14,7 +14,7 @@ const Home = () => {
     const ref = useRef();
     return (
         <div style={{ backgroundColor: '#FFF8C8' }}>
-          <Parallax pages={2} ref={ref} style={{overflowX: 'hidden'}}>
+          <Parallax pages={4} ref={ref} style={{overflowX: 'hidden'}}>
             <ParallaxLayer
             offset={0.2}
             speed={0.8}
@@ -57,7 +57,7 @@ const Home = () => {
             speed={2.5}
             style={{ backgroundImage: `url(${flower5})`, backgroundSize: '200px', marginLeft: '10%' }}/>
     
-            <ParallaxLayer sticky={{ start: 0.3, end: 0.95 }} style={{ display: 'flex ', justifyContent: 'center'}}>
+            <ParallaxLayer sticky={{ start: 0.3, end: 0.88 }} style={{ display: 'flex ', justifyContent: 'center'}}>
               <img src={logo} alt="logo" style={{ display: 'block', maxWidth: "840.75px", maxHeight: '167.25px' }}/>
             </ParallaxLayer>
     
@@ -66,17 +66,30 @@ const Home = () => {
             </ParallaxLayer>
     
             <ParallaxLayer sticky={{ start: 1.1, end: 1.1 }} style={{ marginLeft: '10%' }}>
-              <h2 style={{ height: '200px' }}>About</h2>
+              <h2 style={{ fontSize: '50px' }}>About</h2>
             </ParallaxLayer>
             
             <ParallaxLayer sticky={{ start: 1.1, end: 1.1 }} style={{ marginLeft: '30%' }}>
-              <div style={{ fontSize: '200%', display: 'block', width: '55%', height: 'auto', textAlign: 'justify'}}>
+              <div style={{ fontSize: '150%', display: 'block', width: '55%', height: 'auto', textAlign: 'justify'}}>
                 Welcome to EcoExplorer, where the magic of nature comes to life! 🌿 
                 Get ready for an amazing journey into your local world. Our special tool, the "Soil Moisture Sensor," 
                 is like a superhero gadget that lets you talk to the ground and discover the secrets of your natural neighborhood. 
                 Are you ready for an adventure? Let's explore together and learn the coolest things about the great outdoors! 🌍🔍✨
               </div>
+              <pre>
+                {"\n"}
+              </pre>
+              <div style={{ fontSize: '150%', display: 'block', width: '55%', height: 'auto', textAlign: 'justify'}}>
+              We mix hands-on adventures with tech magic to help you understand and protect nature. 
+              By exploring with EcoExplorer, you're not just having a blast – you're becoming a superhero for your local world! 
+              Let's go on this exciting journey together and make our planet a better place!
+              </div>
             </ParallaxLayer>
+
+            <ParallaxLayer sticky={{ start: 2, end: 3}} style={{ marginLeft: '60%' }}>
+              <h2 style={{ fontSize: '50px' }}>Location</h2>
+            </ParallaxLayer>
+
           </Parallax>
         </div>
       );
